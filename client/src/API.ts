@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from "axios"
 
-const baseUrl: string = "http://localhost:4001"
+const baseUrl: string = "https://locations-search.herokuapp.com"
 
 export const getFilteredLocations = async (searchTxt: string): Promise<AxiosResponse<ApiDataType>> => {
   try {
